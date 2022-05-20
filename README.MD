@@ -1,0 +1,21 @@
+# Simple Task Manager API
+
+## Requirements
+
+For building and running the application you need:
+
+- [JDK 8](https://openjdk.java.net/projects/jdk/8/)
+- [Maven 3](https://maven.apache.org)
+  - Before using Monitoring api you should compile and add this project. You can use this command: `mvn clean install`.
+
+
+## Running the application locally
+
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `ie.ali.taskmanager.TaskManagerApplication` class from your IDE.
+
+Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
+
+```shell
+mvn spring-boot:run
+```
+
